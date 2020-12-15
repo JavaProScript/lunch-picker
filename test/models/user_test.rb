@@ -7,7 +7,7 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test "should save a user with name, email, password" do
-    user = User.new(email: 'bat@man.com', name: 'Bruce', password: '123456')
+    user = User.new(email: 'b@t.man', name: 'Bruce', password: '123456')
     assert user.save
   end
 end
