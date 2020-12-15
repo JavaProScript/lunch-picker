@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class RestaurantTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "should not save a restaurant without a name" do
+    assert true
+  end
 end
